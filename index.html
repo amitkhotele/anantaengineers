@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ananta Engineers</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to Ananta Engineers</h1>
+    </header>
+    <main>
+        <section id="home">
+            <div class="hero">
+                <h2>Your Trusted CNC Metal Manufacturing Partner</h2>
+                <button onclick="scrollToSection('services')">Explore Services</button>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <div class="about_info1"><p>
+            <span>About Us</span> <br>
+            <p>Welcome to Ananta Engineers, a premier CNC metal manufacturing company dedicated to delivering high-quality, precision-engineered solutions to our clients. With years of expertise and a commitment to innovation, we have established ourselves as a trusted partner in the industry.
+            </div>
+            <hr>
+            <div class="about_info2">
+            <span>Our Mission</span> <br>
+            <p>At Ananta Engineers, our mission is to provide exceptional CNC manufacturing services that exceed our clients' expectations. We strive for excellence in every project, ensuring precision, quality, and efficiency in all our operations.
+            </div>
+            <hr>
+            <div class="about_info3">
+            <span>Our Vision</span> <br>
+            <p>Our vision is to be the leading CNC metal manufacturing company, recognized for our cutting-edge technology, skilled workforce, and unwavering commitment to customer satisfaction. We aim to drive innovation in the industry and set new standards of excellence.</p></div>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <h3>Service 1</h3>
+                    <p>Description of service 1.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Service 2</h3>
+                    <p>Description of service 2.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Service 3</h3>
+                    <p>Description of service 3.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Ananta Engineers. All rights reserved.</p>
+    </footer>
+</body>
+</html>
