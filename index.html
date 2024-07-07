@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,58 +8,115 @@
     <script src="scripts.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <h1>Welcome to Ananta Engineers</h1>
-    </header>
     <main>
+        <header>
+            <nav>
+                <h1>Ananta Engineers</h1>
+                <button class="menu-toggle" aria-label="Toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
         <section id="home">
             <div class="hero">
+                <h2>Welcome to <span>ANANTA ENGINEERS</span></h2>
                 <h2>Your Trusted CNC Metal Manufacturing Partner</h2>
-                <button onclick="scrollToSection('services')">Explore Services</button>
+                <button onclick="scrollToSection('services')" >Explore Services</button>
             </div>
         </section>
+        <hr>
+        <hr>
         <section id="about">
             <h2>About Us</h2>
-            <div class="about_info1"><p>
-            <span>About Us</span> <br>
-            <p>Welcome to Ananta Engineers, a premier CNC metal manufacturing company dedicated to delivering high-quality, precision-engineered solutions to our clients. With years of expertise and a commitment to innovation, we have established ourselves as a trusted partner in the industry.
+            <div class="par1">
+                <div class="about_info1">
+                    <span>About Us</span><br>
+                    <p>Welcome to Ananta Engineers, a premier CNC metal manufacturing company dedicated to delivering
+                        high-quality, precision-engineered solutions to our clients. With years of expertise and a
+                        commitment to innovation, we have established ourselves as a trusted partner in the industry.</p>
+                </div>
+                <div class="about_div1"></div>
             </div>
             <hr>
-            <div class="about_info2">
-            <span>Our Mission</span> <br>
-            <p>At Ananta Engineers, our mission is to provide exceptional CNC manufacturing services that exceed our clients' expectations. We strive for excellence in every project, ensuring precision, quality, and efficiency in all our operations.
+            <div class="par2">
+                <div class="about_info2">
+                    <span>Our Mission</span><br>
+                    <p>At Ananta Engineers, our mission is to provide exceptional CNC manufacturing services that exceed
+                        our clients' expectations. We strive for excellence in every project, ensuring precision, quality,
+                        and efficiency in all our operations.</p>
+                </div>
             </div>
             <hr>
-            <div class="about_info3">
-            <span>Our Vision</span> <br>
-            <p>Our vision is to be the leading CNC metal manufacturing company, recognized for our cutting-edge technology, skilled workforce, and unwavering commitment to customer satisfaction. We aim to drive innovation in the industry and set new standards of excellence.</p></div>
+            <div class="par3">
+                <div class="about_info3">
+                    <span>Our Vision</span><br>
+                    <p>Our vision is to be the leading CNC metal manufacturing company, recognized for our cutting-edge
+                        technology, skilled workforce, and unwavering commitment to customer satisfaction. We aim to
+                        drive innovation in the industry and set new standards of excellence.</p>
+                </div>
+            </div>
         </section>
+        <hr>
+        <hr>
         <section id="services">
             <h2>Our Services</h2>
             <div class="services-container">
                 <div class="service-card">
-                    <h3>Service 1</h3>
-                    <p>Description of service 1.</p>
+                    <h3>Threading Services</h3>
+                    <img src="img/threading.webp" alt="Threading Services" width="270px">
+                    <p>Threading in CNC machining involves creating precise screw threads on both internal and external surfaces of a workpiece. Our advanced CNC equipment ensures high precision and repeatability, making it ideal for producing fasteners, machinery components, and automotive parts.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Service 2</h3>
-                    <p>Description of service 2.</p>
+                    <h3>Boring Services</h3>
+                    <img src="img/boring.webp" alt="Boring Services" width="270px">
+                    <p>Boring is the process of enlarging a pre-drilled hole with high accuracy. Our CNC boring services provide precise internal diameters and smooth finishes, perfect for creating custom-fit components in industries like automotive, aerospace, and heavy machinery.</p>
                 </div>
                 <div class="service-card">
-                    <h3>Service 3</h3>
-                    <p>Description of service 3.</p>
+                    <h3>Parting Services</h3>
+                    <img src="img/parting.png" alt="Parting Services" width="270px">
+                    <p>Parting, or cutting off, involves separating a part from the main stock material. Our CNC parting services ensure clean, accurate cuts, minimizing material waste and ensuring that the final product meets your exact specifications.</p>
                 </div>
             </div>
         </section>
+        <hr>
+        <hr>
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="products-container">
+                <div class="product-card">
+                    <img src="img/p6.webp" alt="Product 1" width="270px" height="250px">
+                </div>
+                <div class="product-card">
+                    <img src="img/p1.avif" alt="Product 2" width="270px">
+                </div>
+                <div class="product-card">
+                    <img src="img/p2.webp" alt="Product 3" width="270px">
+                </div>
+                <div class="product-card">
+                    <img src="img/p3.webp" alt="Product 4" width="270px" height="250px">
+                </div>
+                <div class="product-card">
+                    <img src="img/p4.jpg" alt="Product 5" width="270px">
+                </div>
+                <div class="product-card">
+                    <img src="img/p5.jpg" alt="Product 6" width="270px">
+                </div>
+                <div class="product-card">
+                    <img src="img/p6.jpeg" alt="Product 7" width="270px">
+                </div>
+            </div>
+        </section>
+        <hr>
+        <hr>
         <section id="contact">
             <h2>Contact Us</h2>
             <form id="contact-form">
@@ -73,4 +131,5 @@
         <p>&copy; 2024 Ananta Engineers. All rights reserved.</p>
     </footer>
 </body>
+
 </html>
